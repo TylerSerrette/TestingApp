@@ -19,11 +19,24 @@
     "storybook:build": "storybook build"
   },
   "dependencies": {
-    "@mantine/core": "7.4.2",
-    "@mantine/hooks": "7.4.2",
+    "@mantine/carousel": "^7.5.0",
+    "@mantine/charts": "^7.5.0",
+    "@mantine/core": "^7.5.0",
+    "@mantine/dates": "^7.5.0",
+    "@mantine/form": "^7.5.0",
+    "@mantine/hooks": "^7.5.0",
+    "@mantine/modals": "^7.5.0",
+    "@mantine/notifications": "^7.5.0",
+    "@mantine/nprogress": "^7.5.0",
+    "@tabler/icons": "^2.46.0",
+    "@tabler/icons-react": "^2.46.0",
+    "@tanstack/react-location": "^3.7.4",
+    "dayjs": "^1.11.10",
+    "embla-carousel-react": "^7.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.21.0"
+    "react-router-dom": "^6.21.0",
+    "recharts": "2"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.6",
@@ -52,8 +65,8 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "identity-obj-proxy": "^3.0.0",
     "jsdom": "^23.0.1",
-    "postcss": "^8.4.32",
-    "postcss-preset-mantine": "1.12.3",
+    "postcss": "^8.4.33",
+    "postcss-preset-mantine": "^1.12.3",
     "postcss-simple-vars": "^7.0.1",
     "prettier": "^3.1.1",
     "prop-types": "^15.8.1",
